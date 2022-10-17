@@ -4,6 +4,9 @@
     font-family: 'Poppins', sans-serif;
     padding: 0;
 }
+body{
+    display: flex;
+}
 nav{
     position: fixed;
     background-color: #f44336;
@@ -47,6 +50,12 @@ section{
     position: absolute;
     left: 30%;
     top: 5px;
-    background-color: black;
-    width: 100px;
+    width: 500px;
+}
+.jomb{
+    font-size: 40px!important;
+    margin-top: 70px;
+}
+.jomb h3{
+    color: #F44336;
 }
