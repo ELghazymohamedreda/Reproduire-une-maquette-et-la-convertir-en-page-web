@@ -236,8 +236,10 @@ button{
     cursor: pointer;
 }
 
-footer{
+#footer {
     background-color: #b1abab;
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    height: 100px;
-}
+    height: 5rem;
+  }
