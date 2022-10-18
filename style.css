@@ -94,6 +94,7 @@ ul li{
     margin-top: 16px;
 }
 .showcase img{
+    opacity: 0.8;
     width: 428px;
     margin-bottom: -6px;
     margin-top: 10px;
@@ -103,4 +104,108 @@ ul li{
     font-size: 40px!important;
     margin-top: 70px;
     color: #F44336;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    background-color: #F1F1F1;
+    margin-right: 2rem;
+}
+.card:hover{
+   transform: scale(1.05);
+    transition: all easei .4s;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.card-content{
+    padding: .8rem 1rem;
+    padding-bottom: 2rem;
+}
+.card h5{
+    margin: .8rem 0;
+    font-size: 1rem;
+}
+.card h6{
+    opacity: .4;
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+.card p{
+    font-size: .8rem;
+}
+
+.planes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plane{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #F1F1F1;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all ease .4s;
+}
+.plane:hover{
+    transform: scale(1.02);
+    opacity: .7;
+}
+.plane h4{
+
+    z-index: 0;
+    color: white;
+    padding: 1rem 0;
+}
+.gray{
+    background-color: gray;
+}
+.gray-button{
+    background-color: white;
+    padding: 1rem;
+}
+.gray-button:hover{
+   background-color: #F44336;
+   color: white;
+
+}
+.red-button{
+    background-color: white;
+    padding: 1rem;
+    background-color: #F44336;
+    color: white;
+}
+.red-button:hover{
+   background-color: #ffffff;
+   color: #000000;
+
+}
+.red{
+    background-color: #F44336;
+
+
+}
+.plane span {
+    padding: .7rem 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+}
+.plane button{
+    width: 20%;
+    margin: 1rem auto;
+    border: none;
+    cursor: pointer;
+}
+
+
+hr{
+opacity: .5;
 }
