@@ -6,6 +6,7 @@
 }
 body{
     display: flex;
+    position: relative;
 }
 nav{
     position: fixed;
@@ -15,6 +16,7 @@ nav{
     color: #fff;
     padding-top: 110px;
     padding-left: 28px;
+    z-index: 3;
 
 }
 nav h3 {
@@ -63,6 +65,7 @@ ul li{
     left: 30%;
     top: 5px;
     width: 500px;
+    overflow: hidden;
 }
 .jomb{
     font-size: 40px!important;
@@ -214,32 +217,42 @@ opacity: .5;
 input{
 
     border: 1px solid #b1abab;
-    padding: 8px;
+    padding: 3px;
     width: 62em;
     display: block;
 }
 input , button {
-    padding: 20px;
+    padding: 10px;
     font-size: 14px;
     color: black;
-    width: 61em;
+    width: 59em;
     height: 30px;
 }
 button{
     background-color: #f44336;
     border: none;
-    width: 61em;
+    width: 60.6em;
+    height: 40px;
     margin-bottom: 100px;
-    padding-bottom: 33PX;
-    padding-top: 10px;
+    text-align: center;
     color: #fff;
     cursor: pointer;
 }
 
-#footer {
-    background-color: #b1abab;
-    
+footer {
+    background-color: #f1f1f1;
+    margin-top: auto;
     bottom: 0;
-    width: 100%;
+    width: calc(100% + 53px);
     height: 5rem;
+    margin-left: -43px;
+    padding-top:15px;
   }
+  .fast{
+    text-align: center;
+    margin-top: 25px;
+  }
+  footer i{
+    margin-left: 80px;
+  }
+ 
